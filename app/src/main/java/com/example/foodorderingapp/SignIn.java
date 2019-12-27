@@ -37,15 +37,8 @@ public class SignIn extends AppCompatActivity {
         edtPhone = (EditText) findViewById(R.id.editPhone);
         btnSignIn = (Button) findViewById(R.id.btnSignIn);
 
-        try {
-
-            database = FirebaseDatabase.getInstance();
-
-            table_user = database.getReference("User");
-        }
-        catch (Exception e) {
-            System.out.println(e);
-        }
+        database = FirebaseDatabase.getInstance();
+        table_user = database.getReference("User");
 
         btnSignIn.setOnClickListener(new View.OnClickListener() {
             @Override
