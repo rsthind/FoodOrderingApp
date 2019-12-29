@@ -1,5 +1,6 @@
 package com.example.foodorderingapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.example.foodorderingapp.Common.Common;
@@ -45,6 +46,8 @@ public class Home extends AppCompatActivity {
 
     RecyclerView recycler_menu;
     RecyclerView.LayoutManager layoutManager;
+
+    FirebaseRecyclerAdapter<Category, MenuViewHolder> adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -96,7 +99,7 @@ public class Home extends AppCompatActivity {
     }
 
     private void loadMenu() {
-        FirebaseRecyclerAdapter<Category, MenuViewHolder> adapter = new FirebaseRecyclerAdapter<Category, MenuViewHolder>(Category.class, R.layout.menu_item, MenuViewHolder.class, category) {
+        adapter = new FirebaseRecyclerAdapter<Category, MenuViewHolder>(Category.class, R.layout.menu_item, MenuViewHolder.class, category) {
             @Override
             protected void populateViewHolder(MenuViewHolder menuViewHolder, Category category, int i) {
                 menuViewHolder.txtMenuName.setText(category.getName());
@@ -106,7 +109,11 @@ public class Home extends AppCompatActivity {
                 menuViewHolder.setItemClickListener(new ItemClickListener() {
                     @Override
                     public void onClick(View view, int position, boolean isLongClick) {
-                        Toast.makeText(Home.this, ""+clickItem.getName(), Toast.LENGTH_LONG).show();
+                        //Get CategoryID and send to new Activity
+                        Intent foodList = new Intent(Home.this, FoodList.class);
+                        //Bc CategoryID is key, so get key of this item
+                        foodList.putExtra("CategoryId", adapter.getRef(position).getKey());
+                        startActivity(foodList);
                     }
                 });
             }
