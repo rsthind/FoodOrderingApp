@@ -1,0 +1,485 @@
+{
+  "Category": {
+    "01": {
+      "Name": "FINGER FOODS",
+      "Image": "https://purewows3.imgix.net/images/articles/2019_09/easy-finger-food-recipes-for-a-crowd-400.jpg?auto=format,compress&cs=strip"
+    },
+    "02": {
+      "Name": "WESTERN SOUPS",
+      "Image": "https://www.stockpilingmoms.com/wp-content/uploads/2010/12/Southwestern-Soup.jpg"
+    },
+    "03": {
+      "Name": "EASTERN SOUPS",
+      "Image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-image.myrecipes.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fmedium_2x%2Fpublic%2Fimage%2Frecipes%2Fck%2F14%2F08%2Fmiddle-eastern-soup-ck-x.jpg%3Fitok%3DtQIEzpxf&w=450&c=sc&poi=face&q=85"
+    },
+    "04": {
+      "Name": "SANDWICHES",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Salmon_Cream_Cheese_Sandwiches.jpg"
+    },
+    "05": {
+      "Name": "PIZZA",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Supreme_pizza.jpg"
+    },
+    "06": {
+      "Name": "PASTA",
+      "Image": "https://upload.wikimedia.org/wikipedia/commons/5/54/Pasta-2802156_1920.jpg"
+    },
+    "07": {
+      "Name": "CHICKEN",
+      "Image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/easy-chicken-dinners-zesty-orange-glazed-drumsticks-1561669174.jpg?crop=0.860xw:0.859xh;0.0700xw,0.0748xh&resize=640:*"
+    },
+    "08": {
+      "Name": "FISH",
+      "Image": "https://images.squarespace-cdn.com/content/v1/583b4f659de4bb04c55ebafa/1485188465722-0M1T1NRLPDB3QFKKU420/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/AdobeStock_101666615.jpg?format=1500w"
+    }
+    },
+    "User" : {
+      "098812355" : {
+        "Name" : "Thind",
+        "Password" : "1234"
+      },
+      "0988123344" : {
+        "Name" : "Ranveer",
+        "Password" : "1234"
+      },
+      "0988123388" : {
+        "isStaff" : "false",
+        "name" : "Tom Cruise",
+        "password" : "1234"
+      }
+  },
+  "Foods" : {
+          "01" : {
+            "description" : "",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581150471_c644954e41_o.jpg",
+            "menuId" : "11",
+            "name" : "GINGER PAO",
+            "price" : "1000"
+          },
+          "02" : {
+            "description" : "",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581150436_dca091792a_o.jpg",
+            "menuId" : "11",
+            "name" : "COCONUT PAO",
+            "price" : "1000"
+          },
+          "03" : {
+            "description" : "",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581150341_b2608d308f_o.jpg",
+            "menuId" : "11",
+            "name" : "RED BEAN PAO",
+            "price" : "1000"
+          },
+          "04" : {
+            "description" : "",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581150271_5f1c2dbf39_o.jpg",
+            "menuId" : "11",
+            "name" : "CHAR SIEW PAO",
+            "price" : "1000"
+          },
+          "05" : {
+            "description" : "",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581293572_b5a15be920_o.jpg",
+            "menuId" : "11",
+            "name" : "CHAI PAO",
+            "price" : "1000"
+          },
+          "06" : {
+            "description" : "",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581150976_a45769f99a_o.jpg",
+            "menuId" : "11",
+            "name" : "ONDE ONDE",
+            "price" : "1000"
+          },
+          "07" : {
+            "description" : "",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581150961_a2cef643ba_o.jpg",
+            "menuId" : "11",
+            "name" : "CHAI KUIH",
+            "price" : "1000"
+          },
+          "08" : {
+            "description" : "",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581150231_ee870d09ca_o.jpg",
+            "menuId" : "11",
+            "name" : "YAM CAKE",
+            "price" : "1000"
+          },
+          "09" : {
+            "description" : "",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581294242_7e52115396_o.jpg",
+            "menuId" : "11",
+            "name" : "RADISH CAKE",
+            "price" : "1000"
+          },
+          "10" : {
+            "description" : "",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581150791_f4b58ecfb1_o.jpg",
+            "menuId" : "11",
+            "name" : "PUMPKIN CAKE",
+            "price" : "1000"
+          },
+          "11" : {
+            "description" : "",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581294087_2aa14247b5_o.jpg",
+            "menuId" : "11",
+            "name" : "ANG KU",
+            "price" : "1000"
+          },
+          "12" : {
+            "description" : "",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581150661_ec19b66d44_o.jpg",
+            "menuId" : "11",
+            "name" : "FATT KO",
+            "price" : "1000"
+          },
+          "13" : {
+            "description" : "",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581150571_d9ce895170_o.jpg",
+            "menuId" : "11",
+            "name" : "3 LAYER CAKE",
+            "price" : "1000"
+          },
+          "14" : {
+            "description" : "Bamboo fungus in spicy thai style sauce",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581054857_81760286f8_o.jpg",
+            "menuId" : "01",
+            "name" : "THAI STYLE SALAD",
+            "price" : "1000"
+          },
+          "15" : {
+            "description" : "Glutinous rice ball with black sesame paste filling coated with minced peanuts",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581054772_37201578e8_o.jpg",
+            "menuId" : "01",
+            "name" : "BLACK SESAME BALL",
+            "price" : "1000"
+          },
+          "16" : {
+            "description" : "Golden fried spinach potato ball",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48580910086_2d7c52df8b_o.jpg",
+            "menuId" : "01",
+            "name" : "SPINACH POTATO BALL",
+            "price" : "1000"
+          },
+          "17" : {
+            "description" : "Apple in yoghurt sauce with walnut & sunflower seeds coated with cane sugar and sesame seeds",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48580910021_c1e2f56ee3_o.jpg",
+            "menuId" : "01",
+            "name" : "DOUBLE DELIGHT",
+            "price" : "1000"
+          },
+          "18" : {
+            "description" : "Tofu in spicy thai style sauce",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581054447_e45be6c8ea_o.jpg",
+            "menuId" : "01",
+            "name" : "SOUR & SPICY TOFU",
+            "price" : "1000"
+          },
+          "23" : {
+            "description" : "Lotus root, ground nuts and kombu",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581028192_bee4339120_o.jpg",
+            "menuId" : "03",
+            "name" : "LOTUS ROOT",
+            "price" : "1000"
+          },
+          "24" : {
+            "description" : "Old cucumber and longan",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581028157_8de7d7e414_o.jpg",
+            "menuId" : "03",
+            "name" : "OLD CUCUMBER",
+            "price" : "1000"
+          },
+          "25" : {
+            "description" : "Burdock, fig, longan and goji berry",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581028077_c44403b448_o.jpg",
+            "menuId" : "03",
+            "name" : "BURDOCK",
+            "price" : "1000"
+          },
+          "26" : {
+            "description" : "Carrot, potato, onion, and tomato",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48580883441_735f988702_o.jpg",
+            "menuId" : "03",
+            "name" : "ABC",
+            "price" : "1000"
+          },
+          "27" : {
+            "description" : "2 organic eggs with only 1 yolk served with fresh organic vegetables and low fat mayonnaise on panini bread",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581128976_e60f0d1831_o.jpg",
+            "menuId" : "04",
+            "name" : "EGG MAYO SANDWICH",
+            "price" : "1000"
+          },
+          "28" : {
+            "description" : "A patty made of organic mushrooms, lentils and spices, topped with an organic sunny side up egg",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581128931_342505bcdc_o.jpg",
+            "menuId" : "04",
+            "name" : "LENTIL SANDWICH",
+            "price" : "1000"
+          },
+          "29" : {
+            "description" : "A refreshing dip made with chickpeas, tahini (sesame paste), and served with crackers, pita bread, fruit and an assortment of salads",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581272227_d3ed797476_o.jpg",
+            "menuId" : "04",
+            "name" : "HUMMUS PLATTER",
+            "price" : "1000"
+          },
+          "30" : {
+            "description" : "Mushrooms and onion",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581241387_93a0326e8e_o.jpg",
+            "menuId" : "05",
+            "name" : "MUSHROOM PIZZA",
+            "price" : "1000"
+          },
+          "31" : {
+            "description" : "Tomatoes, capsicum and pesto",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581098176_f51d29e407_o.jpg",
+            "menuId" : "05",
+            "name" : "MARGHERITA PIZZA",
+            "price" : "1000"
+          },
+          "32" : {
+            "description" : "Pineapple, beancurd sheet and onion",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581098241_e2b87ab900_o.jpg",
+            "menuId" : "05",
+            "name" : "HAWAIIAN PIZZA",
+            "price" : "1000"
+          },
+          "33" : {
+            "description" : "Pasta tossed with capsicum, tofu, soybean chunks and special herb-infused olive oil",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581055381_53b3314d26_o.jpg",
+            "menuId" : "06",
+            "name" : "GARDEN AGLIO OLIO",
+            "price" : "1000"
+          },
+          "34" : {
+            "description" : "Pasta tossed with traditional Asian spices and served with pan fried diced vegetables",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581055231_4e16dd144b_o.jpg",
+            "menuId" : "06",
+            "name" : "SPICY AGLIO OLIO",
+            "price" : "1000"
+          },
+          "36" : {
+            "description" : "Creamy fettuccine served with green peas, cauliflower and long beans",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581055441_50ec9378cf_o.jpg",
+            "menuId" : "06",
+            "name" : "CAULIFLOWER FETTUCCINE",
+            "price" : "1000"
+          },
+          "37" : {
+            "description" : "It's unique and one of a kind!",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581199427_7fc1df9fb7_o.jpg",
+            "menuId" : "06",
+            "name" : "FUSION SPAGHETTI",
+            "price" : "1000"
+          },
+          "38" : {
+            "description" : "Served with mushroom gravy, cranberry & mint sauces",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48580764482_ae213e429e_o.jpg",
+            "menuId" : "07",
+            "name" : "ROASTED QUARTER CHICKEN",
+            "price" : "1000"
+          },
+          "39" : {
+            "description" : "Chicken served in curry that is made from more than 10 spices to bring out the authentic traditional taste. Served with rice and 3 side dishes",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48580764672_8e98e1dca9_o.jpg",
+            "menuId" : "07",
+            "name" : "CURRY CHICKEN",
+            "price" : "1000"
+          },
+          "40" : {
+            "description" : "Chicken served in curry that is made from more than 10 spices to bring out the authentic traditional taste. Served with rice and 3 side dishes",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48580619116_d67b84a481_o.jpg",
+            "menuId" : "07",
+            "name" : "RENDANG CHICKEN",
+            "price" : "1000"
+          },
+          "41" : {
+            "description" : "Steamed chicken with red dates and mushroom. Served with rice and 3 side dishes",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48580764602_d6233cfb9b_o.jpg",
+            "menuId" : "07",
+            "name" : "HERBAL STEAMED CHICKEN",
+            "price" : "1000"
+          },
+          "42" : {
+            "description" : "Half a salmon fish head cooked in an asam broth. Served with rice and 3 side dishes",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48580945016_107b8ebb69_o.jpg",
+            "menuId" : "08",
+            "name" : "ASAM FISH HEAD",
+            "price" : "1000"
+          },
+          "43" : {
+            "description" : "Golden fried salmon stuffed bread puffs. Served with mashed potato & salad",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48580944936_83771bdd88_o.jpg",
+            "menuId" : "08",
+            "name" : "DUO SEASON SALMON PUFFS",
+            "price" : "1000"
+          },
+          "44" : {
+            "description" : "Breaded fried toman fish slices in pumpkin sauce. Served with rice and 3 side dishes",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581089047_f9379321bf_o.jpg",
+            "menuId" : "08",
+            "name" : "TOMAN IN PUMPKIN SAUCE",
+            "price" : "1000"
+          },
+          "45" : {
+            "description" : "Breaded fried toman fish slices in pumpkin sauce. Served with rice and 3 side dishes",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48580842576_8c37aa82c9_o.jpg",
+            "menuId" : "09",
+            "name" : "GINGER SOY FISH CAKE",
+            "price" : "1000"
+          },
+          "46" : {
+            "description" : "Fried mushroom served in a sweet and savoury sauce",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48580987562_732e370dd7_o.jpg",
+            "menuId" : "09",
+            "name" : "GONG BAO MUSHROOM TOFU",
+            "price" : "1000"
+          },
+          "47" : {
+            "description" : "An assortment of mushrooms, vegetables and white silken tofu in pumpkin sauce",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48580842361_cc0dd8fc46_o.jpg",
+            "menuId" : "09",
+            "name" : "PUMPKIN LUO HAN ZHAI",
+            "price" : "1000"
+          },
+          "48" : {
+            "description" : "Fried breaded monkey head mushroom on a bed of tofu topped with homemade sweet and sour cranberry sauce",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48580987367_ed2c9094db_o.jpg",
+            "menuId" : "09",
+            "name" : "SWEET & SOUR MONKEY HEAD MUSHROOM",
+            "price" : "1000"
+          },
+          "49" : {
+            "description" : "Enjoy the healthy version of the classic malaysian delight we all love",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48580970041_fafe54429e_o.jpg",
+            "menuId" : "10",
+            "name" : "MEDIFOODS NASI LEMAK",
+            "price" : "1000"
+          },
+          "50" : {
+            "description" : "Assortment of vegetables & nut served with rice and our signature basil blended soup",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48580970921_db7b7dcda8_o.jpg",
+            "menuId" : "10",
+            "name" : "LEI CHA",
+            "price" : "1000"
+          },
+          "51" : {
+            "description" : "Udon noodle stir fried with blackpepper, soy sauce and mixed vegetables",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581114642_87ae182fea_o.jpg",
+            "menuId" : "10",
+            "name" : "BLACK PEPPER UDON",
+            "price" : "1000"
+          },
+          "52" : {
+            "description" : "Rice vermicelli cooked in vegetable soup infused with organic egg",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581114472_0926c6c724_o.jpg",
+            "menuId" : "10",
+            "name" : "CANTONESE STYLE MEE SUA",
+            "price" : "1000"
+          },
+          "53" : {
+            "description" : "Fried rice with egg, textured soy protein, capsicum and our own lui cha sauce",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581114337_faa88783b2_o.jpg",
+            "menuId" : "10",
+            "name" : "MF SPECIAL FRIED RICE",
+            "price" : "1000"
+          },
+          "54" : {
+            "description" : "Bittergourd braised in vegatble soup along with tofu, bamboo fungus and rice vermicilli",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581114262_3ee1030753_o.jpg",
+            "menuId" : "10",
+            "name" : "BITTERGOURD MEE HOON",
+            "price" : "1000"
+          },
+          "55" : {
+            "description" : "Udon noodles served in a light miso soup with egg, japanese tofu, oyster mushroom and seaweed",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48580970156_c5372dfc8c_o.jpg",
+            "menuId" : "10",
+            "name" : "JAPANESE RAMEN",
+            "price" : "1000"
+          },
+          "56" : {
+            "description" : "Boiled calrose rice with pumpkin, textured soy protein, tofu, toman fish and topped with fried meehoon",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48580970031_e82a19a30d_o.jpg",
+            "menuId" : "10",
+            "name" : "MEDIFOODS PORRIDGE",
+            "price" : "1000"
+          },
+          "57" : {
+            "description" : "Fried rice vermicili with cloud ear, carrot and topped with vegetarian fish",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581114022_831004d682_o.jpg",
+            "menuId" : "10",
+            "name" : "HOKKIEN VEGETARIAN FRIED MEE HOON",
+            "price" : "1000"
+          },
+          "58" : {
+            "description" : "Rice vermicilli served in santan-free curry with chicken, long beans , tau pok and enoki mushrooms",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581114897_70724ea292_o.jpg",
+            "menuId" : "10",
+            "name" : "CURRY MEE HOON",
+            "price" : "1000"
+          },
+          "59" : {
+            "description" : "Long grain Basmati rice with lentil and millets",
+            "discount" : "0",
+            "image" : "https://live.staticflickr.com/65535/48581113917_766e65be1a_o.jpg",
+            "menuId" : "10",
+            "name" : "MEDIFOODS RICE",
+            "price" : "1000"
+          }
+      }
+}
