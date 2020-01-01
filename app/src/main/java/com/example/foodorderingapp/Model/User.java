@@ -11,9 +11,9 @@ public class User {
     }
 
     public User(String nama, String password) {
-        Name = nama;
-        Password = password;
-        IsStaff = "false";
+        this.Name = nama;
+        this.Password = password;
+        this.IsStaff = "false";
     }
 
     public String getIsStaff() {
